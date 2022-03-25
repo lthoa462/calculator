@@ -1,0 +1,100 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+body {
+    padding: 0;
+    margin: 0;
+    background: Linear-gradient(to top left, #55efc4, #81ecec, #74b9ff, #a29bfe);
+    background-attachment:fixed;
+    min-height: 100%;
+    width: 100%;
+}
+.cont {
+    width: 350px;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    font-size: 1.25rem;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, .75) !important;
+    color: black;
+    padding: 1rem !important;
+}
+.btn-primary:hover {
+    border: 1px solid white;
+    color: black;
+    background-color: rgba(255, 255, 255, .9) !important; 
+}
+.btn-primary:focus {
+    outline: none !important;
+    box-shadow: none !important; 
+    border: 1px solid white;
+    color: black;
+    background-color: rgba(255, 255, 255, .75) !important;
+}
+.output {
+    background-color: rgba(0, 0, 0, .75);
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: right;
+    min-height: 90px;
+}
+.previous-number {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1rem;
+    min-height: 1rem;
+}
+.current-number {
+    color: white;
+    font-size: 2rem;
+    min-height: auto;
+}
+.col-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.col-3{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.rounded-0{
+    border-radius: 0!important;
+}
+.justify-content-around {
+    justify-content: space-around!important;
+}
+.align-items-end {
+    align-items: flex-end!important;
+} 
+.d-flex{
+    display: flex!important;
+}
+.flex-column{
+    flex-direction: column!important;
+} 
+.text-light{
+    color: #ffff;
+} 
+.px-3{
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+} 
+.py-1{
+    padding-top: .25rem!important;
+    padding-bottom: .25rem!important;
+}
+.align-items-center{
+    align-items: center!important;
+}
